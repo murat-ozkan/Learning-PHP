@@ -35,6 +35,23 @@
         <div class="card mb-3">
             <div class="row">
                 <div class="col-3">
+                    <img src="./img/<?php echo $kurs1_resim; ?>" alt="" class="img-fluid rounded-start">
+                </div>
+                <div class="col-9 card-body">
+                    <h5 class="card-title"><?php echo $kurs1_baslik; ?></h5>
+                    <p class="card-text"><?php echo $kurs1_altbaslik; ?></p>
+                    <span class="badge badge-pill text-bg-primary">
+                        Yorum: <?php echo $kurs1_yorumSayisi; ?>
+                    </span>
+                    <span class="badge badge-pill text-bg-secondary">
+                        Beğeni: <?php echo $kurs1_begeniSayisi; ?>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row">
+                <div class="col-3">
                     <img src="./img/<?php echo $kurs2_resim; ?>" alt="" class="img-fluid rounded-start">
                 </div>
                 <div class="col-9 card-body">
@@ -66,23 +83,7 @@
                 </div>
             </div>
         </div>
-        <div class="card mb-3">
-            <div class="row">
-                <div class="col-3">
-                    <img src="./img/<?php echo $kurs1_resim; ?>" alt="" class="img-fluid rounded-start">
-                </div>
-                <div class="col-9 card-body">
-                    <h5 class="card-title"><?php echo $kurs1_baslik; ?></h5>
-                    <p class="card-text"><?php echo $kurs1_altbaslik; ?></p>
-                    <span class="badge badge-pill text-bg-primary">
-                        Yorum: <?php echo $kurs1_yorumSayisi; ?>
-                    </span>
-                    <span class="badge badge-pill text-bg-secondary">
-                        Beğeni: <?php echo $kurs1_begeniSayisi; ?>
-                    </span>
-                </div>
-            </div>
-        </div>
+
         
     </div>
 
