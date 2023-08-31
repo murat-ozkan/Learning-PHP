@@ -1,8 +1,8 @@
 <?php
 
     $ad = "çınar";
-    $soyad = "ozkan";
-    $yas = 7;
+    $soyad = "turan";
+    $yas = 6;
 
     // $mesaj = "My name is ".$ad.' '.$soyad." and ".$yas." years old.";
     $mesaj = "my name is $ad $soyad and $yas years old.";
