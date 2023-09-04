@@ -64,12 +64,12 @@
            <form action="register.php" method="post">
             <div class="mb-3">
                 <label for="username">Kullanıcı Adı</label>
-                <input type="text" name="username" class="form-control" value="<?php echo $username;?>">
+                <input type="text" name="username"  value="<?php echo $username;?>">
                 <div class="text-danger"><?php echo $usernameErr; ?></div>
             </div>
             <div class="mb-3">
                 <label for="email">Eposta</label>
-                <input type="email" name="email" class="form-control" value="<?php echo $email;?>">
+                <input type="email" name="email" value="<?php echo $email;?>">
                 <div class="text-danger"><?php echo $emailErr; ?></div>
             </div>
             <div class="mb-3">
